@@ -1,4 +1,4 @@
-package cn.hle.skipselfstartmanager.util;
+package com.jit.autostart.util;
 
 import android.content.ComponentName;
 import android.content.Context;

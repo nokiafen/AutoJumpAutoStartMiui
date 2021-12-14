@@ -1,1 +1,3 @@
 include ':app'
+include ':autostartup'
+include ':autostartup'

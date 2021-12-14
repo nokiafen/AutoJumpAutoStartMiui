@@ -7,7 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import cn.hle.skipselfstartmanager.util.MobileInfoUtils;
+import com.jit.autostart.util.MobileInfoUtils;
+
 import xyz.kumaraswamy.autostart.Autostart;
 
 

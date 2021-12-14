@@ -20,13 +20,11 @@ android {
 }
 
 dependencies {
-    implementation files('src\\libs\\autostart.jar')
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
+    api fileTree(dir: 'libs', include: ['*.jar'])
+
     //noinspection GradleCompatible,GradleCompatible
-    compile 'com.android.support:appcompat-v7:25.2.0'
+    implementation 'com.android.support:appcompat-v7:25.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    testCompile 'junit:junit:4.12'
+    api project(path: ':autostartup')
+    testImplementation 'junit:junit:4.12'
 }
